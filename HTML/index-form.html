@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Lagacy form</legend>
+
+        <h3>Contact Information:</h3>
+
+        <div>
+          <section>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+              name="name-field"
+            />
+          </section>
+          <br />
+          <section>
+            <label for="surname">Surname:</label>
+            <input
+              type="text"
+              id="surname"
+              placeholder="Enter Your Surname"
+              name="surename-field"
+            />
+          </section>
+          <br />
+          <section>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email-field"
+              id="email"
+              placeholder="example@email.com"
+              required
+            />
+          </section>
+        </div>
+
+        <h3>Language:</h3>
+        <div>
+          <section>
+            <input type="checkbox" name="language" id="en" value="English" />
+            <label for="en">English</label>
+          </section>
+          <section>
+            <input type="checkbox" name="language" id="bn" value="Bangla" />
+            <label for="bn">Bangla</label>
+          </section>
+          <section>
+            <input type="checkbox" name="language" id="gz" value="GenZ" />
+            <label for="gz">GenZ</label>
+          </section>
+        </div>
+        <h3>Gender:</h3>
+        <div>
+          <section>
+            <input type="radio" name="gender" id="male" value="Male" />
+            <label for="male">Male</label>
+          </section>
+          <section>
+            <input type="radio" name="gender" id="female" value="Female" />
+            <label for="female">Female</label>
+          </section>
+        </div>
+
+        <h3>Country:</h3>
+        <div>
+          <section>
+            <label for="country">Select Your Country:</label>
+            <select name="country" id="country">
+              <option value="" selected disabled>--Select--</option>
+              <option value="BD">Bangladesh</option>
+              <option value="NR">Norway</option>
+              <option value="RU">Russia</option>
+            </select>
+          </section>
+        </div>
+
+        <h3>Submit Documents:</h3>
+        <div>
+          <section>
+            <label for="file">Select Files</label>
+            <input type="file" name="file" id="file" />
+          </section>
+        </div>
+        <br />
+        <button>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
