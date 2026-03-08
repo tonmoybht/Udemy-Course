@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+
+    <style>
+      .grid-wrapper{
+        background-color: grey;
+        margin: 50px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: repeat(4, 100px);
+        /* gap: 20px; */
+        column-gap: 50px;
+        row-gap: 20px;
+
+      }
+
+      .el-1 {
+        background-color: red;
+        /* height: 100px; */
+      }
+      .el-2 {
+        background-color: yellowgreen;
+      }
+      .el-3 {
+        background-color: teal;
+      }
+      .el-4 {
+        background-color: brown;
+      }
+      .el-5 {
+        background-color: rgb(0, 140, 255);
+      }
+      .el-6 {
+        background-color: rgb(37, 230, 255);
+      }
+      .el-7 {
+        background-color: rgb(2, 44, 44);
+      }
+      .el-8 {
+        background-color: rgb(236, 253, 2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-wrapper">
+      <div class="el el-1">HTML</div>
+      <div class="el el-2">CSS</div>
+      <div class="el el-3">Element</div>
+      <div class="el el-4">Language</div>
+      <div class="el el-5">ML</div>
+      <div class="el el-6">SS</div>
+      <div class="el el-7">ment</div>
+      <div class="el el-8">guage</div>
+    </div>
+
+    <div class="go-home">
+      <a href="index.html">Go Home</a>
+    </div>
+    
+  </body>
+</html>

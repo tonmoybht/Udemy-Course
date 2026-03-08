@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+  </head>
+
+  <style>
+    .main-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .flex-wrapper {
+      background-color: grey;
+      margin: 50px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .el {
+      flex: 1;
+    }
+
+    .el-1 {
+      background-color: red;
+      /* height: 100px; */
+      /* order: 1; */
+      /* flex-grow: 1; */
+    }
+    .el-2 {
+      background-color: yellowgreen;
+      /* align-self: flex-start; */
+      /* order: 2; */
+      /* flex-grow: 1; */
+    }
+    .el-3 {
+      background-color: teal;
+      /* flex-grow: 1; */
+    }
+    .el-4 {
+      /* flex-grow: 1; */
+      background-color: brown;
+    }
+  </style>
+
+  <body>
+    <div class="main-wrapper">
+      <div class="flex-wrapper">
+        <div class="el el-1">HTML</div>
+        <div class="el el-2">CSS</div>
+        <div class="el el-3">Element</div>
+        <div class="el el-4">Language</div>
+      </div>
+
+      <div class="flex-wrapper">
+        <div class="el el-1">HTML</div>
+        <div class="el el-2">CSS</div>
+        <div class="el el-3">Element</div>
+        <div class="el el-4">Language</div>
+      </div>
+    </div>
+    <div>
+      <a href="index.html">Go Home</a>
+    </div>
+  </body>
+</html>
