@@ -27,7 +27,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   padding: 5rem 9% 2rem;
 }
 
@@ -74,6 +74,7 @@ span {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  padding-top: 15rem;
 }
 
 .home-text h3 {
@@ -209,7 +210,7 @@ span {
 }
 
 .services-container .services-box {
-  flex: 1 1 30px;
+  flex: 1 1 30rem;
   background-color: var(--second-bg-color);
   padding: 2rem 3rem 4rem;
   border-radius: 2rem;
@@ -261,7 +262,7 @@ span {
 }
 
 .portfolio-box img:hover {
-  scale: calc(1.1);
+  transform: scale(1.1);
 }
 
 .portfolio-box .portfolio-text {
@@ -313,7 +314,7 @@ span {
 /* Contact Section */
 
 .contact form {
-  width: 70rem;
+  max-width: 70rem;
   margin: 1rem auto;
   text-align: center;
   margin-bottom: 3rem;
@@ -325,9 +326,16 @@ span {
   flex-wrap: wrap;
 }
 
-.input-box input,
-textarea {
+.contact form .input-box input {
+  width: 49%;
+}
+
+.contact form textarea {
   width: 100%;
+}
+
+.contact form input,
+.contact form textarea {
   padding: 1.5rem;
   font-size: 1.5rem;
   border-radius: 10px;
@@ -336,15 +344,9 @@ textarea {
   margin: 10px 0;
 }
 
-.contact form,
-.input-box input {
-  width: 49%;
-}
-
 textarea {
   resize: none;
 }
-
 /* Footer */
 
 .footer {
@@ -381,97 +383,104 @@ textarea {
 
 /* Responsive */
 
-@media screen and (max-width: 1200px) {
-  html {
-    font-size: 55%;
+/* Responsive */
+
+@media screen and (max-width:1200px){
+  html{
+    font-size:55%;
   }
 }
 
-@media screen and (max-width: 991px) {
-  section {
-    padding: 10rem 3% 2rem;
+@media screen and (max-width:991px){
+
+  section{
+    padding:10rem 3% 2rem;
   }
 
-  .header {
-    padding: 2rem 3%;
+  .header{
+    padding:2rem 3%;
   }
-  .footer {
-    padding: 2rem 3%;
+
+  .footer{
+    padding:2rem 3%;
   }
-  .services {
-    padding: 7rem;
+
+  .services{
+    padding:7rem 3%;
   }
-  .portfolio {
-    padding: 7rem;
+
+  .portfolio{
+    padding:7rem 3%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    gap: 2rem;
+@media screen and (max-width:768px){
+
+  .header{
+    flex-direction:column;
+    gap:2rem;
   }
 
-  .navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+  .navbar{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
   }
 
-  .home {
-    flex-direction: column;
-  }
-  .home-text h3 {
-    font-size: 2.5rem;
-  }
-  .home-text h1 {
-    font-size: 5rem;
-  }
-  .home-img img {
-    width: 70vw;
-    margin-top: 4rem;
+  .home{
+    flex-direction:column;
   }
 
-  .about {
-    flex-direction: column-reverse;
+  .home-img img{
+    width:70vw;
+    margin-top:4rem;
   }
 
-  .about img {
-    width: 70vw;
-    margin-top: 3rem;
+  .about{
+    flex-direction:column-reverse;
   }
 
-  .portfolio-container {
-    grid-template-columns: repeat(2, 1fr);
+  .about img{
+    width:70vw;
+    margin-top:3rem;
+  }
+
+  .services-container{
+    flex-direction:column;
+  }
+
+  .portfolio-container{
+    grid-template-columns:repeat(2,1fr);
   }
 }
 
-@media screen and (max-width: 576px) {
-  html {
-    font-size: 50%;
+@media screen and (max-width:576px){
+
+  html{
+    font-size:50%;
   }
 
-  .portfolio-container {
-    grid-template-columns: 1fr;
+  .portfolio-container{
+    grid-template-columns:1fr;
   }
 
-  .input-box input {
-    width: 100%;
+  .contact form .input-box input{
+    width:100%;
   }
 }
 
-@media screen and (max-width: 350px) {
-  .home-img img {
-    width: 90vw;
+@media screen and (max-width:350px){
+
+  .home-img img{
+    width:90vw;
   }
 
-  .about-img img {
-    width: 90vw;
+  .about-img img{
+    width:90vw;
   }
 
-  footer {
-    flex-direction: column-reverse;
+  .footer{
+    flex-direction:column-reverse;
   }
 }
