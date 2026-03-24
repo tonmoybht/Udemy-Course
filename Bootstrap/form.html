@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/icons8-worker-96.png"
+      type="image/x-icon"
+    />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+        <form >
+          <div class="mb-2">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="emailField" id="email" class="form-control" placeholder="Enter Your Email" aria-describedby="emailInfo">
+            <div class="form-text" id="emailInfo">We Will Share Your Email With Others :)</div>
+          </div>
+          <div class="mb-2">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Your Password" aria-describedby="passInfo">
+            <div class="form-text" id="passinfo">We Will Also Share Your Password ;)</div>
+          </div>
+          <div class="mb-2">
+            <input type="checkbox" id="checkBox" class="form-check-input">
+            <label for="checkBox" class="form-check-label">Sample</label>
+          </div>
+          <div class="mb-2">
+            <label for="textarea">Sample Textarea</label>
+            <textarea name="sample" id="textarea" class="form-control" rows="3"></textarea>
+          </div>
+          <button class="btn btn-success px-2 text-light mt-2">Submit</button>
+        </form>
+      </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

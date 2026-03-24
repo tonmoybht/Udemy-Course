@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collapse</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container my-2">
+      <!-- <a
+        href="#coll"
+        role="button"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+      >
+        Collapse
+      </a>
+      <div class="collapse" id="coll">
+        <p class="border border-info rounded p-2 mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magnam
+          inventore quisquam id voluptatibus amet praesentium dolor. Corrupti in
+          modi deserunt commodi placeat magni quisquam alias optio, sunt non
+          quam.
+        </p>
+      </div> -->
+
+      <div class="accordion" id="accordionId">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="accordionOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-target="#one"
+              data-bs-toggle="collapse"
+              
+            >
+              Accordion 1
+            </button>
+          </h2>
+          <div
+            id="one"
+            aria-labelledby="accordionOne"
+            data-bs-parent="#accordionId"
+            class="accordion-collapce collapse show"
+          >
+            <div class="accordion-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae eligendi dolorem delectus deleniti. Error nisi sint
+                eum commodi obcaecati cupiditate nesciunt! Fuga minus
+                consequatur, magnam facere provident neque obcaecati vel!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

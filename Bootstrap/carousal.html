@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container my-5">
+       <div class="carousel slide" id="slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button class="active" type="button" data-bs-target="#slide" data-bs-slide-to="0"></button>
+          <button type="button" data-bs-target="#slide" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#slide" data-bs-slide-to="2"></button>
+        </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption">
+            <h1>first Image</h1>
+          </div>
+          <img
+            src="images/p1.jpg"
+            alt=""
+            class="img-fluid d-block carousel-img"
+            
+          />
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h1>Second Image</h1>
+          </div>
+          <img
+            src="images/p2.jpg"
+            alt=""
+            class="img-fluid d-block carousel-img"
+            
+          />
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <h1>Third Image</h1>
+          </div>
+          <img src="images/p3.jpg" alt="" class="img-fluid d-block carousel-img" 
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        data-bs-target="#slide"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-bs-target="#slide"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
