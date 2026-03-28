@@ -1,495 +1,552 @@
 ////////////////// first code ////////////////////
-// console.log("Hello!");
+/* 
+console.log("Hello!");
+ */
 
 //////////////////// variable and data types /////////////
-// var name = "Mokles";
+/* 
+var name = "Mokles";
 
-// console.log(name);
+console.log(name);
 
-// var schoolTeam = "football";
-// var schoolNum = 20;
+var schoolTeam = "football";
+var schoolNum = 20;
 
-// console.log(schoolNum);
+console.log(schoolNum);
 
-// var isRegistered = true;
+var isRegistered = true;
 
-// var job;
+var job;
 
-// console.log(job);
+console.log(job); 
+*/
 
 // console.log(isRegistered);
 
 ///////////////////// Type Coarcion //////////////////
 
-// console.log(name + " " + schoolNum);
+/* 
+console.log(name + " " + schoolNum);
 
-// var schoolName, hasCourse;
+var schoolName, hasCourse;
 
-// schoolName = "Gopal Academy";
-// hasCourse = true;
+schoolName = "Gopal Academy";
+hasCourse = true;
 
-// console.log(schoolName + " Has 10 Courses? " + hasCourse);
+console.log(schoolName + " Has 10 Courses? " + hasCourse); 
+*/
 
 /////////////////// Variable Mutation //////////////////
-// schoolNum = "Tweenty";
+/* 
+schoolNum = "Tweenty";
 
-// console.log(schoolNum);
+console.log(schoolNum);
 
-// schoolTeam = "Cricket";
+schoolTeam = "Cricket";
 
-// console.log(schoolTeam);
+console.log(schoolTeam);
 
-//alert(schoolTeam);
+alert(schoolTeam);
 
-// var age = prompt("Enter your age");
+var age = prompt("Enter your age");
 
-// console.log("Age = " + age);
+console.log("Age = " + age); 
+*/
 
 /////////////////////// Basic Oparators //////////////////
 
-// var totalDistance, samDistance, alexDistance;
+/* 
+var totalDistance, samDistance, alexDistance;
 
-// totalDistance = 20;
+totalDistance = 20;
 
-// samDistance = totalDistance - 12;
-// console.log("Sam Ran " + samDistance + "KM");
+samDistance = totalDistance - 12;
+console.log("Sam Ran " + samDistance + "KM");
 
-// alexDistance = totalDistance - 8;
-// console.log("Alex Ran " + alexDistance + "KM");
+alexDistance = totalDistance - 8;
+console.log("Alex Ran " + alexDistance + "KM");
+ */
 
 // //Logical Ops
 
-// var distanceToschool, distanceTohome;
+/* 
+var distanceToschool, distanceTohome;
 
-// distanceToschool = 20;
-// distanceTohome = 10;
+distanceToschool = 20;
+distanceTohome = 10;
 
-// var isCloser = distanceTohome < distanceToschool;
+var isCloser = distanceTohome < distanceToschool;
 
-// console.log(isCloser);
+console.log(isCloser); 
+*/
 
 ////////////////// Conditional Statements ////////////////////
 
-// var grade;
+/* 
+var grade;
 
-// grade = 42;
+grade = 42;
 
-// if (grade < 40) {
-//   console.log("You Failed!!");
-// } else if (grade >= 40 && grade < 45) {
-//   console.log("You can retake the exam");
-// } else {
-//   console.log("You Passed!");
-// }
+if (grade < 40) {
+  console.log("You Failed!!");
+} else if (grade >= 40 && grade < 45) {
+  console.log("You can retake the exam");
+} else {
+  console.log("You Passed!");
+}
+   */
 
 // //exercise 1
 
-// var age;
+/* 
+var age;
 
-// age = 24;
+age = 24;
 
-// if (age < 18) {
-//   console.log("You cannot enter!");
-// } else if(age >= 18 && age < 23){
-//   console.log('You can enter but cannot drink alcohol!');
-// }else {
-//   console.log("Welcome! Knock yourself out.");
-// }
+if (age < 18) {
+  console.log("You cannot enter!");
+} else if(age >= 18 && age < 23){
+  console.log('You can enter but cannot drink alcohol!');
+}else {
+  console.log("Welcome! Knock yourself out.");
+} 
+*/
 
 ////////////////////// Ternary Operator ///////////////////////
 
-// var grade = 43;
+/* 
+var grade = 43;
 
-// grade < 45 ? console.log("You Failed!") : console.log("You passed!");
+grade < 45 ? console.log("You Failed!") : console.log("You passed!");
 
-// var result = grade < 45 ? "Failed" : "Passed";
+var result = grade < 45 ? "Failed" : "Passed";
 
-// console.log(result);
-
+console.log(result);
+ */
 ///////////////////////// Switch case ///////////////////////
 
-// var day;
+/* 
+var day;
 
-// day = "friday";
+day = "friday";
 
-// switch (day) {
-//   case "friday":
-//     console.log("Shei");
-//     break;
-//   case "saterday":
-//     console.log("Good");
-//     break;
-//   case "sunday":
-//     console.log("Baal");
-//     break;
+switch (day) {
+  case "friday":
+    console.log("Shei");
+    break;
+  case "saterday":
+    console.log("Good");
+    break;
+  case "sunday":
+    console.log("Baal");
+    break;
 
-//   default:
-//     console.log("Ki baar?");
-//     break;
-// }
+  default:
+    console.log("Ki baar?");
+    break;
+}
 
-// var grade = 37;
+var grade = 37;
 
-// switch (true) {
-//   case grade < 40:
-//     console.log("You field!");
-//     break;
-//   case grade >= 40 && grade < 45:
-//     console.log("You may take retake exam");
-//     break;
-//   default:
-//     console.log("You passed!");
-//     break;
-// }
+switch (true) {
+  case grade < 40:
+    console.log("You field!");
+    break;
+  case grade >= 40 && grade < 45:
+    console.log("You may take retake exam");
+    break;
+  default:
+    console.log("You passed!");
+    break;
+}
+ */
 
 // // exercise 2
 
-// var alexGrade = (90 + 80 + 95) / 3;
-// console.log("Alex avarage Grade = " + alexGrade);
+/* 
+var alexGrade = (90 + 80 + 95) / 3;
+console.log("Alex avarage Grade = " + alexGrade);
 
-// var saraGrade = (89 + 76 + 98) / 3;
-// console.log("Sara avarage Grade = " + saraGrade);
+var saraGrade = (89 + 76 + 98) / 3;
+console.log("Sara avarage Grade = " + saraGrade);
 
-// var nancyGrade = (42 + 98 + 83) / 3;
-// console.log("Nancy avarage Grade = " + nancyGrade);
+var nancyGrade = (42 + 98 + 83) / 3;
+console.log("Nancy avarage Grade = " + nancyGrade);
 
-// if (alexGrade > saraGrade && alexGrade > nancyGrade) {
-//   console.log("Alex have the highest avarage grade!");
-// } else if (saraGrade > alexGrade && saraGrade > nancyGrade) {
-//   console.log("Sara have the highest avarage grade!");
-// } else if (nancyGrade > alexGrade && nancyGrade > saraGrade) {
-//   console.log("Nancy have the highest avarage grade!");
-// } else {
-//   console.log("Maybe they have same avarage");
-// }
+if (alexGrade > saraGrade && alexGrade > nancyGrade) {
+  console.log("Alex have the highest avarage grade!");
+} else if (saraGrade > alexGrade && saraGrade > nancyGrade) {
+  console.log("Sara have the highest avarage grade!");
+} else if (nancyGrade > alexGrade && nancyGrade > saraGrade) {
+  console.log("Nancy have the highest avarage grade!");
+} else {
+  console.log("Maybe they have same avarage");
+} 
+  */
 
 ////////////////////// While loop //////////////////////////
 
-// var num = 1;
+/* 
+var num = 1;
 
-// while (num <= 11) {
-//   console.log(num);
-//   num++;
-// }
+while (num <= 11) {
+  console.log(num);
+  num++;
+}
 
-// exercise 1
+exercise 1
 
-// even number
+even number
 
-// var num = 132;
+var num = 132;
 
-// while (num <= 148) {
-//   console.log(num);
-//   num += 2;
-// }
+while (num <= 148) {
+  console.log(num);
+  num += 2;
+}
 
-// divisible by 7
+divisible by 7
 
-// var num = 25;
+var num = 25;
 
-// while (num <= 100) {
-//   if (num % 7 === 0) {
-//     console.log(num);
-//   }
-//   num++;
-// }
+while (num <= 100) {
+  if (num % 7 === 0) {
+    console.log(num);
+  }
+  num++;
+}
+   */
 
 ///////////////////// For loop /////////////////////////
 
-// var num = 1;
+/* 
+var num = 1;
 
-// for (i = 1; i <= 10; i++) {
-//   console.log(num);
-//   num++;
-// }
+for (i = 1; i <= 10; i++) {
+  console.log(num);
+  num++;
+}
 
-// for (var num = 1; num <= 10; num++) {
-//   console.log(num);
-// }
+for (var num = 1; num <= 10; num++) {
+  console.log(num);
+}
+*/
 
 // exercise 1
 
 // //print even number
-// for (var num = 132; num <= 148; num++) {
-//   if (num % 2 !== 0) {
-//     console.log(num);
-//   }
-// }
+/* 
+for (var num = 132; num <= 148; num++) {
+  if (num % 2 !== 0) {
+    console.log(num);
+  }
+}
 
-// //print number divisible by both 7 and 5.
-// for (var num = 25; num <= 100; num++) {
-//   if (num % 7 === 0 && num % 5 === 0) {
-//     console.log(num);
-//   }
-// }
+//print number divisible by both 7 and 5.
+for (var num = 25; num <= 100; num++) {
+  if (num % 7 === 0 && num % 5 === 0) {
+    console.log(num);
+  }
+} 
+  */
 
 ///////////////////////// Functions ////////////////////////
 
-// function sayHello() {
-//   console.log("Hello");
-// }
+/* 
+function sayHello() {
+  console.log("Hello");
+}
 
-// sayHello();
-
+sayHello();
+ */
 //// Argument
 
-// function sayHello(name) {
-//   console.log("Hi" + " " + name);
-// }
+/* 
+function sayHello(name) {
+  console.log("Hi" + " " + name);
+}
 
-// sayHello("Mokles");
-// sayHello("Kuddus");
+sayHello("Mokles");
+sayHello("Kuddus");
 
-// function cube(num) {
-//   console.log("Cube of " + num + " is : " + num * num * num);
-// }
+function cube(num) {
+  console.log("Cube of " + num + " is : " + num * num * num);
+}
 
-// cube(3);
-// cube(69);
+cube(3);
+cube(69);
 
-//// Return
+// Return
 
-// function cube(num) {
-//   math = "Cube of " + num + " is : " + num * num * num;
-//   return math;
-// }
+function cube(num) {
+  math = "Cube of " + num + " is : " + num * num * num;
+  return math;
+}
 
-// console.log(cube(3));
-// console.log(cube(69));
+console.log(cube(3));
+console.log(cube(69));
 
-// function cube(num) {
-//   return "Cube of " + num + " is : " + num * num * num;
-// }
+function cube(num) {
+  return "Cube of " + num + " is : " + num * num * num;
+}
 
-// console.log(cube(3));
-// console.log(cube(69));
+console.log(cube(3));
+console.log(cube(69));
 
-// function cube(num) {
-//   if (num === 69) {
-//     return 420;
-//   } else if (num === 7) {
-//     return "CR7 The GOAT";
-//   } else {
-//     return "Cube of " + num + " is : " + num * num * num;
-//   }
-// }
+function cube(num) {
+  if (num === 69) {
+    return 420;
+  } else if (num === 7) {
+    return "CR7 The GOAT";
+  } else {
+    return "Cube of " + num + " is : " + num * num * num;
+  }
+}
 
-// console.log(cube(3));
-// console.log(cube(69));
-// console.log(cube(7));
+console.log(cube(3));
+console.log(cube(69));
+console.log(cube(7));
 
-// function enterCafe(age){
-//   if(age < 18){
-//     return "You cannot enter the cafe!"
-//   }
-//   return 'You can enter the cafe!'
-// }
+function enterCafe(age){
+  if(age < 18){
+    return "You cannot enter the cafe!"
+  }
+  return 'You can enter the cafe!'
+}
 
-// let age = enterCafe(69)
+let age = enterCafe(69)
 
-// console.log(age);
+console.log(age);
+ */
 
-////////////////// Function declaration and expression ////////////////
+/////////////// Function declaration and expression //////////////
 
 //// declartation
 
-// function ageCal(birthYear) {
-//   return 2026 - birthYear;
-// }
+/* 
+function ageCal(birthYear) {
+  return 2026 - birthYear;
+}
 
-// let age = ageCal(1997);
+let age = ageCal(1997);
 
-// console.log("Your Age is : ", age);
+console.log("Your Age is : ", age);
+ */
 
 //// expression
 
-// let ageCal = function (birthYear) {
-//   return 2026 - birthYear;
-// };
+/*
+ let ageCal = function (birthYear) {
+  return 2026 - birthYear;
+};
 
-// let age = ageCal(1997);
+let age = ageCal(1997);
 
-// console.log("Your age is :",age);
-
+console.log("Your age is :",age);
+ */
 ///// Exercise
 
 //Subtraction
 
-// function subtraction(x, y) {
-//   return x - y;
-// }
+/*
+ function subtraction(x, y) {
+  return x - y;
+}
 
-// console.log("Subtraction Result:", subtraction(3, 2));
-
+console.log("Subtraction Result:", subtraction(3, 2));
+ */
 // //is ODD
 
-// function isOdd(num) {
-//   if (num % 2 !== 0) {
-//     return true;
-//   }
-//   return false;
-// }
+/*
+ function isOdd(num) {
+  if (num % 2 !== 0) {
+    return true;
+  }
+  return false;
+}
 
-// console.log(isOdd(3));
+console.log(isOdd(3));
+ */
 
 // //sum
 
-// function sumOf(num) {
-//   let sum = 0;
-//   for (let i = 1; i <= num; i++) {
-//     sum = sum + i;
-//   }
-//   return sum;
-// }
+/*
+ function sumOf(num) {
+  let sum = 0;
+  for (let i = 1; i <= num; i++) {
+    sum = sum + i;
+  }
+  return sum;
+}
 
-// console.log(sumOf(5));
+console.log(sumOf(5));
 
-// function secondSumof(numm) {
-//   return (numm * (numm + 1)) / 2;
-// }
+function secondSumof(numm) {
+  return (numm * (numm + 1)) / 2;
+}
 
-// let summ = secondSumof(5);
+let summ = secondSumof(5);
 
-// console.log("Sum is:", summ);
+console.log("Sum is:", summ); 
+*/
 
 ///////////////////////// Array ///////////////////////////
 
-// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+/* 
+let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
 
-// console.log(students);
-// // console.log(students[1]);
+console.log(students);
+// console.log(students[1]);
 
-// students[0] = "Hopeless";
+students[0] = "Hopeless";
 
-// console.log(students);
+console.log(students);
 
-// let cars = ["Mercedes", "Audi", "Bmw", "Volvo"];
+let cars = ["Mercedes", "Audi", "Bmw", "Volvo"];
 
-// let cars_length = cars.length;
+let cars_length = cars.length;
 
-// console.log("Cars Array Length:",cars_length);
+console.log("Cars Array Length:",cars_length);
+ */
 
 /////////////////// Array Methods //////////////////
 
 //// 1.Push/Pop adds or removes items from the end
 
-// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+/* 
+let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
 
-// students.push("Rajesh");
+students.push("Rajesh");
 
-// console.log(students);
+console.log(students);
 
-// let fallGuy = students.pop();
+let fallGuy = students.pop();
 
-// console.log(fallGuy);
+console.log(fallGuy);
+ */
 
 ////2.unshift/shift adds or removes items from beginning
 
-// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+/* 
+let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
 
-// students.unshift("Jorim");
+students.unshift("Jorim");
 
-// console.log(students);
+console.log(students);
 
-// students.shift();
+students.shift();
 
-// console.log(students);
+console.log(students);
+ */
 
 ////3. Index of
 
-// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+/* 
+let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
 
-// console.log(students.indexOf("Kuddus"));
+console.log(students.indexOf("Kuddus"));
+ */
 
 ////4.slice
 
-// let students = [
-//   "Mokles",
-//   "Kuddus",
-//   "Karim",
-//   "Rahim",
-//   "Rachel",
-//   "Joye",
-//   "Chandler",
-//   "Monika",
-// ];
+/*
+ let students = [
+  "Mokles",
+  "Kuddus",
+  "Karim",
+  "Rahim",
+  "Rachel",
+  "Joye",
+  "Chandler",
+  "Monika",
+];
 
-// let passedStudents = students.slice(3, 7);
+let passedStudents = students.slice(3, 7);
 
-// console.log(passedStudents);
+console.log(passedStudents); 
+*/
 
 ////Exercise
 
 // //print last name using length
-// let books = ["Harry Potter", "Hobbit", "Hunger Games", "Little Prince"];
+/* 
+let books = ["Harry Potter", "Hobbit", "Hunger Games", "Little Prince"];
 
-// console.log(books[books.length - 1]);
+console.log(books[books.length - 1]); 
+*/
 
 // //print godFather3
 
-// var films = [
-//   ["hobbit1", "hobbit2", "hobbit3"],
-//   ["matrix1", "matrix2", "matrix3"],
-//   ["godFather1", "godFather2", "godFather3"],
-// ];
+/*
+ var films = [
+  ["hobbit1", "hobbit2", "hobbit3"],
+  ["matrix1", "matrix2", "matrix3"],
+  ["godFather1", "godFather2", "godFather3"],
+];
 
-// console.log(films[2][2]);
+console.log(films[2][2]) 
+*/ ////// arrey iteration
 
-////// arrey iteration
+/* 
+let books = ["Harry Potter", "Hobbit", "Hunger Games", "Little Prince"];
 
-// let books = ["Harry Potter", "Hobbit", "Hunger Games", "Little Prince"];
+for (let i = 0; i < books.length; i++) {
+  console.log(books[i]);
+}
 
-// for (let i = 0; i < books.length; i++) {
-//   console.log(books[i]);
-// }
+... printing something for each array elements
+books.forEach(function () {
+  console.log("something");
+});
 
-//... printing something for each array elements
-// books.forEach(function () {
-//   console.log("something");
-// });
+books.forEach(function (bookName) {
+  console.log(bookName);
+});
 
-// books.forEach(function (bookName) {
-//   console.log(bookName);
-// });
+// Exercise
 
-//// Exercise
+let arrey = [];
 
-// let arrey = [];
+for (let i = 0; i <= 20; i++) {
+  arrey.push(i);
+}
 
-// for (let i = 0; i <= 20; i++) {
-//   arrey.push(i);
-// }
+console.log(arrey);
 
-// console.log(arrey);
-
-// arrey.forEach(function (div) {
-//   if (div % 5 === 0) {
-//     console.log(div);
-//   }
-// });
+arrey.forEach(function (div) {
+  if (div % 5 === 0) {
+    console.log(div);
+  }
+}); 
+*/
 
 ////////////////////// Object /////////////////////
 
-// let student = {
-//   name: "Mokles",
-//   age: 23,
-//   school: "nai",
-// };
+/* 
+let student = {
+  name: "Mokles",
+  age: 23,
+  school: "nai",
+};
 
-// console.log(student.age);
-// console.log(student['age']);
+console.log(student);
+console.log(student['age']); 
+*/
 
-// let student = {
-//   name: "Mokles",
-//   age: 23,
-//   school: "nai",
-// };
+/////// Update object
 
-// student.age += 1;
-// student.school = "ase";
+/* 
+let student = {
+  name: "Mokles",
+  age: 23,
+  school: "nai",
+};
 
-// console.log(student.age);
-// console.log(student.school);
+student.age += 1;
+student.school = "ase";
+
+console.log(student.age);
+console.log(student.school);
 
 let student1 = {
   name: "Amy",
@@ -507,4 +564,16 @@ let friend2 = student1.friends[1];
 
 console.log(bestFriendOfStudnet1);
 
-console.log(friend2);
+console.log(friend2); 
+*/
+
+///////// Add property to object
+
+let colors = {};
+
+colors.orange = { code: 123 };
+colors.black = { code: [1, 2, 3, 4] };
+
+console.log(colors);
+console.log(colors);
+console.log(colors.black.code[1]);
