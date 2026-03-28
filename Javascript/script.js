@@ -225,8 +225,286 @@
 
 ///////////////////////// Functions ////////////////////////
 
-function sayHello() {
-  console.log("Hello");
-}
+// function sayHello() {
+//   console.log("Hello");
+// }
 
-sayHello();
+// sayHello();
+
+//// Argument
+
+// function sayHello(name) {
+//   console.log("Hi" + " " + name);
+// }
+
+// sayHello("Mokles");
+// sayHello("Kuddus");
+
+// function cube(num) {
+//   console.log("Cube of " + num + " is : " + num * num * num);
+// }
+
+// cube(3);
+// cube(69);
+
+//// Return
+
+// function cube(num) {
+//   math = "Cube of " + num + " is : " + num * num * num;
+//   return math;
+// }
+
+// console.log(cube(3));
+// console.log(cube(69));
+
+// function cube(num) {
+//   return "Cube of " + num + " is : " + num * num * num;
+// }
+
+// console.log(cube(3));
+// console.log(cube(69));
+
+// function cube(num) {
+//   if (num === 69) {
+//     return 420;
+//   } else if (num === 7) {
+//     return "CR7 The GOAT";
+//   } else {
+//     return "Cube of " + num + " is : " + num * num * num;
+//   }
+// }
+
+// console.log(cube(3));
+// console.log(cube(69));
+// console.log(cube(7));
+
+// function enterCafe(age){
+//   if(age < 18){
+//     return "You cannot enter the cafe!"
+//   }
+//   return 'You can enter the cafe!'
+// }
+
+// let age = enterCafe(69)
+
+// console.log(age);
+
+////////////////// Function declaration and expression ////////////////
+
+//// declartation
+
+// function ageCal(birthYear) {
+//   return 2026 - birthYear;
+// }
+
+// let age = ageCal(1997);
+
+// console.log("Your Age is : ", age);
+
+//// expression
+
+// let ageCal = function (birthYear) {
+//   return 2026 - birthYear;
+// };
+
+// let age = ageCal(1997);
+
+// console.log("Your age is :",age);
+
+///// Exercise
+
+//Subtraction
+
+// function subtraction(x, y) {
+//   return x - y;
+// }
+
+// console.log("Subtraction Result:", subtraction(3, 2));
+
+// //is ODD
+
+// function isOdd(num) {
+//   if (num % 2 !== 0) {
+//     return true;
+//   }
+//   return false;
+// }
+
+// console.log(isOdd(3));
+
+// //sum
+
+// function sumOf(num) {
+//   let sum = 0;
+//   for (let i = 1; i <= num; i++) {
+//     sum = sum + i;
+//   }
+//   return sum;
+// }
+
+// console.log(sumOf(5));
+
+// function secondSumof(numm) {
+//   return (numm * (numm + 1)) / 2;
+// }
+
+// let summ = secondSumof(5);
+
+// console.log("Sum is:", summ);
+
+///////////////////////// Array ///////////////////////////
+
+// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+
+// console.log(students);
+// // console.log(students[1]);
+
+// students[0] = "Hopeless";
+
+// console.log(students);
+
+// let cars = ["Mercedes", "Audi", "Bmw", "Volvo"];
+
+// let cars_length = cars.length;
+
+// console.log("Cars Array Length:",cars_length);
+
+/////////////////// Array Methods //////////////////
+
+//// 1.Push/Pop adds or removes items from the end
+
+// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+
+// students.push("Rajesh");
+
+// console.log(students);
+
+// let fallGuy = students.pop();
+
+// console.log(fallGuy);
+
+////2.unshift/shift adds or removes items from beginning
+
+// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+
+// students.unshift("Jorim");
+
+// console.log(students);
+
+// students.shift();
+
+// console.log(students);
+
+////3. Index of
+
+// let students = ["Mokles", "Kuddus", "Karim", "Rahim"];
+
+// console.log(students.indexOf("Kuddus"));
+
+////4.slice
+
+// let students = [
+//   "Mokles",
+//   "Kuddus",
+//   "Karim",
+//   "Rahim",
+//   "Rachel",
+//   "Joye",
+//   "Chandler",
+//   "Monika",
+// ];
+
+// let passedStudents = students.slice(3, 7);
+
+// console.log(passedStudents);
+
+////Exercise
+
+// //print last name using length
+// let books = ["Harry Potter", "Hobbit", "Hunger Games", "Little Prince"];
+
+// console.log(books[books.length - 1]);
+
+// //print godFather3
+
+// var films = [
+//   ["hobbit1", "hobbit2", "hobbit3"],
+//   ["matrix1", "matrix2", "matrix3"],
+//   ["godFather1", "godFather2", "godFather3"],
+// ];
+
+// console.log(films[2][2]);
+
+////// arrey iteration
+
+// let books = ["Harry Potter", "Hobbit", "Hunger Games", "Little Prince"];
+
+// for (let i = 0; i < books.length; i++) {
+//   console.log(books[i]);
+// }
+
+//... printing something for each array elements
+// books.forEach(function () {
+//   console.log("something");
+// });
+
+// books.forEach(function (bookName) {
+//   console.log(bookName);
+// });
+
+//// Exercise
+
+// let arrey = [];
+
+// for (let i = 0; i <= 20; i++) {
+//   arrey.push(i);
+// }
+
+// console.log(arrey);
+
+// arrey.forEach(function (div) {
+//   if (div % 5 === 0) {
+//     console.log(div);
+//   }
+// });
+
+////////////////////// Object /////////////////////
+
+// let student = {
+//   name: "Mokles",
+//   age: 23,
+//   school: "nai",
+// };
+
+// console.log(student.age);
+// console.log(student['age']);
+
+// let student = {
+//   name: "Mokles",
+//   age: 23,
+//   school: "nai",
+// };
+
+// student.age += 1;
+// student.school = "ase";
+
+// console.log(student.age);
+// console.log(student.school);
+
+let student1 = {
+  name: "Amy",
+  age: 25,
+  friends: ["Howerd", "Raj", "Lenord"],
+  bestFriend: {
+    firstName: "Penny",
+    birthYear: 1988,
+  },
+};
+
+let bestFriendOfStudnet1 = student1.bestFriend.firstName;
+
+let friend2 = student1.friends[1];
+
+console.log(bestFriendOfStudnet1);
+
+console.log(friend2);
