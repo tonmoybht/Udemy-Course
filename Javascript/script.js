@@ -94,7 +94,7 @@ if (grade < 40) {
 } else {
   console.log("You Passed!");
 }
-   */
+*/
 
 // //exercise 1
 
@@ -513,8 +513,8 @@ for (let i = 0; i <= 20; i++) {
 
 console.log(arrey);
 
-arrey.forEach(function (div) {
-  if (div % 5 === 0) {
+arrey.forEach(function (mod) {
+  if (mod % 5 === 0) {
     console.log(div);
   }
 }); 
@@ -569,6 +569,7 @@ console.log(friend2);
 
 ///////// Add property to object
 
+/* 
 let colors = {};
 
 colors.orange = { code: 123 };
@@ -577,3 +578,136 @@ colors.black = { code: [1, 2, 3, 4] };
 console.log(colors);
 console.log(colors);
 console.log(colors.black.code[1]);
+ */
+
+/* 
+let blogPosts = [
+  {
+    title: "Weather",
+    content: "It is Rainy Today",
+    comment: [
+      {
+        name: "Harry",
+        lastName: "Potter",
+      },
+      {
+        name: "Bilbo",
+        lastName: "Bagins",
+      },
+    ],
+  },
+  {
+    title: "Weather",
+    content: "Do not like Rainy weather",
+  },
+];
+
+console.log(blogPosts[1].title);
+console.log(blogPosts[0].comment[1].name);
+ */
+
+//// Exercise
+
+/* let universities = [
+  {
+    name: "Omuk",
+    hasGone: false,
+    year: null,
+  },
+  {
+    name: "tomuk",
+    hasGone: true,
+    year: 1969,
+  },
+  {
+    name: "Romuk",
+    hasGone: true,
+    year: 1968,
+  },
+  {
+    name: "Bomuk",
+    hasGone: true,
+    year: 1967,
+  },
+  {
+    name: "Komuk",
+    hasGone: false,
+    year: null,
+  },
+];
+
+// Using for
+
+
+for (let i = 0; i < universities.length; i++) {
+  if (universities[i].hasGone === false) {
+    console.log(universities[i].name);
+  } else {
+    console.log(
+      universities[i].name,
+      universities[i].hasGone,
+      universities[i].year,
+    );
+  }
+} 
+
+
+// Using forEach
+
+universities.forEach(function (university) {
+  if (university.hasGone === true) {
+    console.log(university.name, university.year);
+  } else {
+    console.log(university.name);
+  }
+});
+ */
+
+///////// Object Methods////////////
+
+/* 
+let sheldon = {
+  name: "Sheldon",
+  age: 25,
+  hasGone: true,
+  friends: ["Lenord", "Howard", "Raj"],
+  say: function () {
+    console.log("Say Hi Sheldon");
+  },
+};
+
+sheldon.say();
+
+let lenord = {
+  name: "Lenord",
+  say: function () {
+    console.log("Say Hi Lenord");
+  },
+};
+
+lenord.say();
+ */
+
+/////////////////// This Keyword /////////////////////
+
+// console.log(this);
+
+/* 
+function addNumber(x, y) {
+  console.log(x + y);
+  console.log(this);
+}
+
+addNumber(10, 10);
+
+let harry = {
+  name: "Harry",
+  age: 15,
+  say: function () {
+    console.log(this);
+    console.log("Say Hi " + this.name);
+  },
+};
+
+harry.say();
+ */
