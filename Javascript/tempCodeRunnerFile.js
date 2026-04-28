@@ -1,1 +1,1 @@
-console.log(student['age']);
+${BMIMark}
