@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-bg-color: #37353e;
+  --secondary-bg-color: #44444e;
+  --primary-color: #715a5a;
+  --text-color: #d3dad9;
+}
+
+html {
+  font-family: "DM Mono", monospace;
+  font-size: 62.5%;
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  min-height: 100vh;
+}
+
+.head {
+  padding: 2rem;
+  margin: 4rem auto 0;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--text-color);
+  color: var(--primary-bg-color);
+  font-size: 2rem;
+}
+
+.player-section {
+  background-color: var(--secondary-bg-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 65vh;
+  border-radius: 20px;
+}
+
+.player-1 {
+  font-size: 4rem;
+  text-align: center;
+  width: 50%;
+  padding: 4rem;
+  height: 100%;
+}
+
+.player-2 {
+  font-size: 4rem;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  padding: 4rem;
+}
+
+.player-active {
+  background-color: var(--primary-color);
+  border-radius: 20px 0 0 20px;
+}
+
+h2 {
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+
+.score {
+  font-size: 8rem;
+}
+
+.current {
+  width: 50%;
+  background-color: var(--primary-color);
+  padding: 3rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.player-active .current {
+  background-color: var(--secondary-bg-color);
+}
+
+.current-label {
+  padding: 10px;
+  font-size: 3rem;
+}
+.current-score {
+  padding: 10px;
+}
+
+img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  max-width: 150px;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.8rem;
+  background-color: var(--text-color);
+  width: 15rem;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #b4bbba;
+  cursor: pointer;
+}
+
+.btn-new {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 112;
+}
+
+.btn-roll {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 112;
+}
+
+.btn-hold {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 112;
+}

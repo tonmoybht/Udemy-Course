@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM | Project 3</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header class="head">
+        <h1 class="head-title">PIG GAME</h1>
+      </header>
+      <section class="player-section">
+        <div class="player-1 player-active">
+          <h2 class="name" id="player-name-1">PLAYER 1</h2>
+          <p class="score" id="score-1">42</p>
+          <div class="current">
+            <p class="current-label">CURRENT SCORE</p>
+            <p class="current-score" id="current-1">0</p>
+          </div>
+        </div>
+        <div class="player-2">
+          <h2 class="name" id="player-name-2">PLAYER 2</h2>
+          <p class="score" id="score-2">30</p>
+          <div class="current">
+            <p class="current-label">CURRENT SCORE</p>
+            <p class="current-score" id="current-2">0</p>
+          </div>
+        </div>
+      </section>
+      <img src="images/dice-5.png" alt="Playing dice" class="dice" />
+      <button class="btn btn-new">NEW GAME</button>
+      <button class="btn btn-roll">ROLL DICE</button>
+      <button class="btn btn-hold">HOLD</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
