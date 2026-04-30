@@ -43,29 +43,23 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  height: auto;
   height: 65vh;
   border-radius: 20px;
+  overflow: hidden;
 }
 
-.player-1 {
+.player {
   font-size: 4rem;
   text-align: center;
   width: 50%;
   padding: 4rem;
   height: 100%;
-}
-
-.player-2 {
-  font-size: 4rem;
-  text-align: center;
-  width: 50%;
-  height: 100%;
-  padding: 4rem;
+  transition: all 0.5s ease-in-out;
 }
 
 .player-active {
   background-color: var(--primary-color);
-  border-radius: 20px 0 0 20px;
 }
 
 h2 {
@@ -105,6 +99,7 @@ img {
   transform: translate(-50%, -50%);
   z-index: 10;
   max-width: 150px;
+  box-shadow: 0px 0px 15px 4px var(--primary-bg-color);
 }
 
 .btn {
@@ -112,15 +107,20 @@ img {
   border-radius: 10px;
   border: none;
   font-size: 1.8rem;
-  background-color: var(--text-color);
+  background-color: rgba(211, 218, 217, 0.6);
   width: 15rem;
   font-family: inherit;
   font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
   background-color: #b4bbba;
   cursor: pointer;
+}
+
+.btn:active {
+  background-color: #6d7271;
 }
 
 .btn-new {
@@ -145,4 +145,12 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 112;
+}
+
+.hidden {
+  display: none;
+}
+
+.player-winner {
+  background-color: #008006;
 }
