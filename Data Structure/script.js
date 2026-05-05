@@ -421,7 +421,7 @@ console.log(newRestaurant.name);
 console.log(newRestaurantCopy.name);
  */
 
-/* ////////// Object Desturcturing
+/* ////////// Object Destructuring
 resturant.orderDelivery({
   time: "10:30",
   address: "Jupiter",
@@ -468,7 +468,7 @@ const {
 console.log(o, c);
  */
 
-/* ////////// Destructuring Arrey
+/* ////////// Destructuring Array
 
 const arr = [2, 4, 5];
 
