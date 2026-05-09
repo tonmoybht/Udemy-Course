@@ -155,24 +155,18 @@ img {
   background-color: #008006;
 }
 
-/* ══════════════════════════════════════════════════════
-   PASTE THESE MEDIA QUERIES AT THE BOTTOM OF style.css
-   Wrap buttons in: <div class="btn-group">...</div>
-   ══════════════════════════════════════════════════════ */
 
-/* ─── Large desktop (≤ 1400px) ──────────────────────── */
 @media (max-width: 1400px) {
   .player-section { width: 70%; }
 }
 
-/* ─── Desktop / laptop (≤ 1100px) ───────────────────── */
+
 @media (max-width: 1100px) {
   .player-section { width: 80%; height: 60vh; }
   img { width: 9vw; }
   .btn { width: 12vw; font-size: 1.5rem; }
 }
 
-/* ─── Small laptop / large tablet (≤ 900px) ─────────── */
 @media (max-width: 900px) {
   .head { width: 40%; font-size: 1.8rem; }
   .player-section { width: 88%; height: 58vh; }
@@ -184,7 +178,7 @@ img {
   .btn-hold { top: 75%; }
 }
 
-/* ─── Mobile (≤ 700px) — switches to vertical flow ───── */
+
 @media (max-width: 700px) {
 
   body {
@@ -202,7 +196,7 @@ img {
     padding: 2rem 1.6rem 1.8rem;
   }
 
-  /* Header */
+
   .head {
     position: static;
     width: 100%;
@@ -212,9 +206,9 @@ img {
     flex-shrink: 0;
   }
 
-  /* Player card — grows to fill space, players stacked */
+
   .player-section {
-    position: relative; /* keep dice absolutely centered inside it */
+    position: relative;
     transform: none;
     top: auto; left: auto;
     flex-direction: column;
@@ -253,7 +247,7 @@ img {
   .current-label { font-size: 1rem; }
   .current-score { font-size: 1.8rem; }
 
-  /* Dice: pinned to the middle of the player-section */
+
   img {
     position: absolute;
     top: 50%;
@@ -264,7 +258,7 @@ img {
     z-index: 10;
   }
 
-  /* Buttons: side by side at the very bottom */
+
   .btn-group {
     display: flex;
     flex-direction: row;
@@ -288,7 +282,7 @@ img {
   }
 }
 
-/* ─── Small phones (≤ 400px) ────────────────────────── */
+
 @media (max-width: 400px) {
   main   { padding: 1.6rem 1.2rem 1.4rem; }
   .score { font-size: 4rem; }
