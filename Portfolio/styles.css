@@ -19,6 +19,7 @@
 
 html {
   overflow-x: hidden;
+  scroll-padding-top: 2rem;
 }
 
 body {
@@ -197,6 +198,7 @@ span {
 
 .heading {
   font-size: 3rem;
+  margin-top: 2%;
   margin-bottom: 5rem;
   text-align: center;
 }
